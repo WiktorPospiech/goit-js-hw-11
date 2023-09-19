@@ -2,13 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // position: fixed; // no needed when hiding search-form
   top: 0;
   left: 0;
   width: 100%;
 }
-
-// animated search-form
 
 .flexbox {
   width: 100%;
@@ -39,24 +36,11 @@
 .search > h1,
 .search > h3 {
   color: #0b7a05;
-  // text-shadow: 0 1px #bebdb3;
 }
 
 .search > div {
   display: inline-block;
   position: relative;
-  // filter: drop-shadow(0 1px #bebdb3);
-}
-
-.search > div:after {
-  content: '';
-  background: #0b7a05;
-  width: 4px;
-  height: 20px;
-  position: absolute;
-  top: 40px;
-  right: 2px;
-  transform: rotate(135deg);
 }
 
 .search > div > input {
